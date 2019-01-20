@@ -110,7 +110,6 @@ class processFiles():
                 self.getCurrentInputParams(jobNumber=i)
                 self.runMapGenerationPipeline(firstTimeRun)
 
-
     def runMapGenerationPipeline(self,
                                  firstTimeRun=True):
 
